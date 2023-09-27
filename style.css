@@ -1,0 +1,160 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./guitar-756326_1280.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+header {
+    margin-top: -12px;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: -78px;
+}
+
+.logoimg img{
+    width: 35px;
+    height: 31px;
+    margin-top: px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background-image: url('./guitar-756326_1280.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 275px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    max-height: 1500px;
+    margin-top: -55px;
+    margin-left: 298px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size:17px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.about {
+    background-image: url('./bg3.jpg');
+    background-size: cover;
+    margin: 0 auto;
+    padding: 80px 0;
+    width: 1514px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:#66253f;
+}
+.about p{
+    color:#893737;
+}
+
+/* Services section styles */
+.services {
+    background-image: url('./bg3.jpg');
+    background-size: cover;
+    width: 1514px;
+    color: rgb(10, 7, 7);
+    text-align: center;
+    padding: 80px 0;
+}
+
+.services h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+
+    .nav-links li {
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .hero-content {
+        padding: 0 20px;
+    }
+}

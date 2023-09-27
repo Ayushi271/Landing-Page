@@ -1,0 +1,59 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./portb.jpg');
+    background-size: cover;
+    text-align: center;
+    
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Section Styles */
+section {
+    padding: 40px;
+}
+
+/* Portfolio Item Styles */
+.portfolio-item {
+    text-align: center;
+    margin-bottom: 40px;
+    align-content: center;
+}
+
+.portfolio-item img {
+    /* max-width: 100%; */
+    width: 1157px;
+    height: 500px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
